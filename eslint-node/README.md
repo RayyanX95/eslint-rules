@@ -6,6 +6,7 @@
 
 - [Install Eslint](#install-eslint)
 - [Add Eslint](#add-eslint)
+- [Extra Notes](#extra-notes)
 
 <hr>
 
@@ -125,12 +126,17 @@ We will add additional eslint rules to this file. So you can override the entire
 }
 ```
 
-So what is hell we just added 🤷‍♀️
+So what is hell we just added? 🤷‍♀️
 
 **Calm down bud!**
 
 we just added `"jest": true` to `env`, in case you want to apply **unit testing** to your project. Also we added extra rules to the `rules` section. **Aaand that's it. 😅**
 
-> *One more thing, you can **change** any of the previous RULES to meet your need.*
+## Extra Notes
+**Why these certain rules?!**
+
+Honestly there are a lot lot other rules that you can add, theses rules are quite enough to enhance your code readability and help you avoid bugs. ***Faire enough!!*** 🙂
+
+> *One more thing, you can **change** any of the previous RULES to make them meet your need.*
 
 ***Happy Eslint 🎉🎉✨***
