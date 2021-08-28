@@ -133,9 +133,18 @@ So what is hell we just added? 🤷‍♀️
 we just added `"jest": true` to `env`, in case you want to apply **unit testing** to your project. Also we added extra rules to the `rules` section. **Aaand that's it. 😅**
 
 ## Extra Notes
-**Why these certain rules?!**
+- **Why these certain rules?!**
 
-Honestly there are a lot lot other rules that you can add, theses rules are quite enough to enhance your code readability and help you avoid bugs. ***Faire enough!!*** 🙂
+  Honestly there are a lot lot other rules that you can add, but these rules are quite enough to enhance your code readability and help you avoid bugs. ***Faire enough!!*** 🙂
+
+- **Apply auto fix using `--fix` option**
+If you just add `eslint` to an existing project, most likely you will see issus that are already on your code. It will be quite difecult to go through all you project file and fix these `eslint` manually. So there is an awesome command you can run fix these issues **automatically**.
+
+Hit this command on your terminal:
+``` shell
+./node_modules/.bin/eslint --fix 
+```
+It hopefully fixes most of the issues.
 
 > *One more thing, you can **change** any of the previous RULES to make them meet your need.*
 
