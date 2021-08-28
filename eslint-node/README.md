@@ -4,12 +4,12 @@
 
 ## Content
 
-- [Install Eslint](#Install)
-- [Add Eslint](#Initialize)
+- [Install Eslint](#install-eslint)
+- [Add Eslint](#add-eslint)
 
 <hr>
 
-# Install Eslint
+## Install Eslint
 
 ```shell
 > npm install eslint --save-dev
@@ -17,7 +17,7 @@
 > yarn add eslint --dev
 ```
 
-# Add Eslint
+## Add Eslint
 
 Let's generate our `.eslintrc.json` file!
 
